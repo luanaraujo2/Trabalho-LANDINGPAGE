@@ -4,14 +4,24 @@ body{ background-color: #151B23;
 main{
     background-color: #212830;
     margin-top: 100px;
-        max-width: 100%;        /* define a largura máxima da main */
-        padding: 80px;           /* espaçamento interno */
+    max-width: 100%;        /* define a largura máxima da main */
+    padding: 80px;           /* espaçamento interno */
 
       
 }
 
+#importante{
+color: brown;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+     color: #3b3bf1;
+     font-size: xx-large;
+}
+
 p{  text-align: justify;
-    color: beige;
+    color: #D1D7E0;
     display: auto;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,14 +32,14 @@ p{  text-align: justify;
     flex: 1; /* ocupa o espaço restante */
     line-height: 1.1;
     text-align: justify;
-    hyphens: auto;
+    hyphens: manual;
 }
 
-h1{ color:#D1D7E0;
+h1{ color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
-h2{ color: #858585;
+h2{ color: rgb(245, 231, 214);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;   
 }
@@ -41,7 +51,7 @@ h3{ text-align: center;
     'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  .h3-decorado{ color: #1A1A58;
+.h3-decorado{ color: #3737e4;
     font-size: 2rem;
 }
 img{margin-top: 25px;
@@ -61,12 +71,12 @@ img{margin-top: 25px;
     text-align: center;
     font-size: 16px;
     border-radius: 20cap;
-    box-shadow: 20px 20px 20px #2f3030;
+    box-shadow: 10px 10px 10px #1d1d1d;
     transition: background-color 0.3s ease;
 }
   
 .botao:hover {
-    background-color: rgb(180, 180, 180);  /* cor ao passar o mouse */
+    background-color: rgb(1, 93, 105);  /* cor ao passar o mouse */
 }
 
 picture{
